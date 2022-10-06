@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.ArithmeticException">
+        <methods>
+          <include name="exception"/>
+        </methods>
+      </class> <!-- TestNG.ArithmeticException -->
+      <class name="TestNG.BeforeAfterNG">
+        <methods>
+          <include name="startUp"/>
+          <include name="logout"/>
+          <include name="testVtiger"/>
+          <include name="login"/>
+          <include name="cleanUp"/>
+          <include name="testReportsPage"/>
+        </methods>
+      </class> <!-- TestNG.BeforeAfterNG -->
+      <class name="TestNG.WebScriptErail">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- TestNG.WebScriptErail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

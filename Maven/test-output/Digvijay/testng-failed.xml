@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Digvijay]">
+  <listeners>
+    <listener class-name="TestNG.DemoTransformer"/>
+  </listeners>
+  <test thread-count="5" name="retrysuite(failed)">
+    <classes>
+      <class name="TestNG.Test001">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- TestNG.Test001 -->
+    </classes>
+  </test> <!-- retrysuite(failed) -->
+</suite> <!-- Failed suite [Digvijay] -->

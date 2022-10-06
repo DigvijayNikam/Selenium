@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Digvijay">
+
+	<listeners>
+		<listener class-name="TestNG.DemoTransformer" />
+
+
+	</listeners>
+
+	<test name="retrysuite">
+		<classes>
+
+			<class name="TestNG.Test001" />
+
+		</classes>
+
+	</test>
+</suite>

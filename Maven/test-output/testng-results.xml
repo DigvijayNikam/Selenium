@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29895" started-at="2022-10-06T14:01:41Z" finished-at="2022-10-06T14:02:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29895" started-at="2022-10-06T14:01:41Z" finished-at="2022-10-06T14:02:11Z">
+      <class name="testscripts.TestLeadsPage">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:testscripts.TestLeadsPage@433d61fb]" name="prerequisite" is-config="true" duration-ms="20000" started-at="2022-10-06T14:01:41Z" finished-at="2022-10-06T14:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="testLeadCreation()[pri:0, instance:testscripts.TestLeadsPage@433d61fb]" name="testLeadCreation" duration-ms="8300" started-at="2022-10-06T14:02:01Z" finished-at="2022-10-06T14:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadCreation -->
+        <test-method status="PASS" signature="testLeadDeletion()[pri:0, instance:testscripts.TestLeadsPage@433d61fb]" name="testLeadDeletion" duration-ms="1245" started-at="2022-10-06T14:02:09Z" depends-on-methods="testscripts.TestLeadsPage.testLeadCreation" finished-at="2022-10-06T14:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadDeletion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testscripts.TestLeadsPage@433d61fb]" name="tearDown" is-config="true" duration-ms="290" started-at="2022-10-06T14:02:11Z" finished-at="2022-10-06T14:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.TestLeadsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
